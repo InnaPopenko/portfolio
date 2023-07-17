@@ -1,8 +1,12 @@
-const Skills = () => {
+import Header from "./../components/header/Header";
+
+const Home = () => {
     return (  
+    <>
+     <Header />
         <main class="section">
-        <div class="container">
-            <h1 class="title-1"> Skills</h1>
+         <div class="container">
+            <h1 class="title-1">Skills</h1>
              <ul class="content-list">
                 <li class="content-list__item">
                     <h2 class="title-2">Frontend </h2>
@@ -13,11 +17,10 @@ const Skills = () => {
                     <p>NodeJS, MySQL, MongoDB, PHP, Laravel</p>        
                 </li>
              </ul>
-                  </div>
-
-    </main>
-
-    );
+         </div>
+        </main>
+    </>
+ );
 }
  
-export default Skills;
+export default Home;
